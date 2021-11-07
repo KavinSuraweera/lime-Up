@@ -5,27 +5,103 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    
+
     <LinearLayout
-        android:orientation="vertical"
-        android:elevation="6dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="300dp">
+
+
+            <Button
+                android:id="@+id/startbutton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/mainbutton"
+                android:elevation="2dp"
+                android:text="get started"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:layout_margin="12dp"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="You can continue with "
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/phoneicon_black"
+                />
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/facebookicon_color"
+            />
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/googleicon"
+             />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/text_logo"
-            android:translationY="-120dp"
-            android:layout_gravity="center"
-            android:background="@drawable/text"
-            android:layout_marginTop="130dp"
             android:layout_width="200dp"
-            android:layout_height="200dp"/>
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/text"/>
 
     </LinearLayout>
 
     <ImageView
+        android:translationY="-400dp"
         android:id="@+id/main_back"
-        android:translationY="-700dp"
         android:layout_width="match_parent"
         android:layout_height="900dp"
         android:scaleType="fitXY"
@@ -36,5 +112,8 @@
         app:layout_constraintTop_toTopOf="parent"
 
         />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

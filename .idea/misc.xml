@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23424196216806611" />
+        <entry key="app/src/main/res/drawable/back_gradient.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/blue.xml" value="0.1484375" />
+        <entry key="app/src/main/res/drawable/blue_button.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/corner_back.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/fb_button.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/google_button.xml" value="0.2734375" />
+        <entry key="app/src/main/res/drawable/mainbutton.xml" value="0.2734375" />
+        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.24322916666666666" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25729166666666664" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17201734657526482" />
+        <entry key="app/src/main/res/layout/activity_user_sign_up_options.xml" value="0.335" />
       </map>
     </option>
   </component>
@@ -12,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.23424196216806611" />
+      </ProjectState>
+    </option>
   </component>
 </project>

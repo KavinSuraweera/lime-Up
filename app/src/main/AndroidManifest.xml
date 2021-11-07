@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LimeUp">
         <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".createAccount"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".userSignUpOptions"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
