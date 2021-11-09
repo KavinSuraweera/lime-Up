@@ -9,18 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LimeUp">
+        
         <activity
             android:name=".home"
             android:exported="false" />
         <activity
             android:name=".createAccount"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".userSignUpOptions"
+            />
         <activity
             android:name=".login"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".userSignUpOptions"/>
         <activity
             android:name=".userSignUpOptions"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
